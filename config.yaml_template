@@ -1,0 +1,29 @@
+app:
+  name: "redisplat"
+  port: 9527
+  version: "v0.0.1"
+  mode: "dev"
+
+
+log:
+  level: "debug"
+  filename: "redisplat.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+
+mysql:
+  host: "172.17.8.179"
+  port: 3306
+  user: "root"
+  password: "r0Acjd12lBxmGsn3"
+  dbname: "redisplat"
+  max_open_conns: 100
+  max_idle_conns: 10
+
+redis:
+  host: "172.17.10.17"
+  port: 16418
+  password: ""
+  db: 0
+  pool_size: 100
